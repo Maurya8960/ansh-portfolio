@@ -1,0 +1,290 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/* Subtle professional animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in-up {
+  animation: fadeInUp 0.6s ease-out;
+}
+
+@keyframes subtleFloat {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+
+.subtle-float {
+  animation: subtleFloat 4s ease-in-out infinite;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.fade-in {
+  animation: fadeIn 0.8s ease-in;
+}
+
+/* Professional gradient text */
+.professional-gradient {
+  background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 50%, #1e40af 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Subtle hover effects */
+.hover-lift {
+  transition: all 0.3s ease;
+}
+
+.hover-lift:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.chat-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+
+.chat-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.chat-scrollbar::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 3px;
+}
+
+.typing-cursor {
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+/* Custom cursor */
+.cursor-dot {
+  width: 8px;
+  height: 8px;
+  background: #3b82f6;
+  border-radius: 50%;
+  position: fixed;
+  pointer-events: none;
+  z-index: 10000;
+  transition: transform 0.1s ease;
+}
+
+.cursor-ring {
+  width: 40px;
+  height: 40px;
+  border: 2px solid #3b82f6;
+  border-radius: 50%;
+  position: fixed;
+  pointer-events: none;
+  z-index: 9999;
+  transition: transform 0.3s ease, border-color 0.3s ease;
+  animation: cursorPulse 2s infinite;
+}
+
+@keyframes cursorPulse {
+  0%, 100% {
+    box-shadow: 0 0 0 0 rgba(59, 130, 246, 0.4);
+  }
+  50% {
+    box-shadow: 0 0 0 10px rgba(59, 130, 246, 0);
+  }
+}
+
+/* Hide default cursor */
+@media (min-width: 768px) {
+  body {
+    cursor: none;
+  }
+  
+  a, button, input, textarea {
+    cursor: none;
+  }
+}
+
+
+/* Colorful gradient animation for titles */
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Alternative color schemes */
+.colorful-text-1 {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 25%, #f093fb 50%, #f5576c 75%, #4facfe 100%);
+  background-size: 200% 200%;
+  animation: gradientShift 3s ease infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.colorful-text-2 {
+  background: linear-gradient(135deg, #f6d365 0%, #fda085 25%, #f093fb 50%, #4facfe 75%, #43e97b 100%);
+  background-size: 200% 200%;
+  animation: gradientShift 3s ease infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.colorful-text-3 {
+  background: linear-gradient(135deg, #a18cd1 0%, #fbc2eb 25%, #f6d365 50%, #fda085 75%, #a18cd1 100%);
+  background-size: 200% 200%;
+  animation: gradientShift 3s ease infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+
+/* Colorful gradient for name */
+@keyframes nameGradient {
+  0% {
+    background-position: 0% 50%;
+    filter: drop-shadow(2px 2px 4px rgba(255, 107, 107, 0.3));
+  }
+  25% {
+    background-position: 100% 0%;
+    filter: drop-shadow(2px 2px 4px rgba(255, 165, 0, 0.3));
+  }
+  50% {
+    background-position: 100% 100%;
+    filter: drop-shadow(2px 2px 4px rgba(255, 215, 0, 0.3));
+  }
+  75% {
+    background-position: 0% 100%;
+    filter: drop-shadow(2px 2px 4px rgba(78, 205, 196, 0.3));
+  }
+  100% {
+    background-position: 0% 50%;
+    filter: drop-shadow(2px 2px 4px rgba(255, 107, 107, 0.3));
+  }
+}
+
+/* Glow effect for name */
+@keyframes nameGlow {
+  0%, 100% {
+    text-shadow: 0 0 10px rgba(255, 107, 107, 0.5), 0 0 20px rgba(255, 165, 0, 0.3), 0 0 30px rgba(255, 215, 0, 0.2);
+  }
+  50% {
+    text-shadow: 0 0 15px rgba(78, 205, 196, 0.6), 0 0 25px rgba(69, 183, 209, 0.4), 0 0 35px rgba(240, 147, 251, 0.3);
+  }
+}
+
+
+/* Hero section animations */
+@keyframes heroOrbFloat {
+  0%, 100% {
+    transform: translate(0, 0) scale(1);
+    opacity: 0.6;
+  }
+  25% {
+    transform: translate(30px, -40px) scale(1.2);
+    opacity: 0.8;
+  }
+  50% {
+    transform: translate(-20px, 30px) scale(0.9);
+    opacity: 0.5;
+  }
+  75% {
+    transform: translate(-40px, -20px) scale(1.1);
+    opacity: 0.7;
+  }
+}
+
+@keyframes ringPulse {
+  0% {
+    transform: scale(0.8);
+    opacity: 0.8;
+  }
+  100% {
+    transform: scale(1.5);
+    opacity: 0;
+  }
+}
+
+@keyframes shapeFloat {
+  0%, 100% {
+    transform: translateY(0) rotate(45deg);
+  }
+  50% {
+    transform: translateY(-30px) rotate(90deg);
+  }
+}
+
+@keyframes dotPattern {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(30px, 30px);
+  }
+}
+
+@keyframes beamMove {
+  0%, 100% {
+    transform: rotate(12deg) translateX(0);
+    opacity: 0.5;
+  }
+  50% {
+    transform: rotate(12deg) translateX(50px);
+    opacity: 0.8;
+  }
+}
