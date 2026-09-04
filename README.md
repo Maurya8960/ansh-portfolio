@@ -18,6 +18,6 @@ A modern portfolio website with an integrated RAG chatbot that answers recruiter
 
 ## 🔗 Links
 
-- Live Demo: https://ansh-portfolio.vercel.app
+- Live Demo: https://ansh-portfolio-woad.vercel.app/
 - GitHub: https://github.com/Maurya8960
 - LinkedIn: https://www.linkedin.com/in/anshmaurya89/
