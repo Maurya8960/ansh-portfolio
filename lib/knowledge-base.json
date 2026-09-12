@@ -1,52 +1,165 @@
 {
   "sections": [
     {
+      "id": "personal_info",
+      "title": "Personal Information",
+      "chunks": [
+        {
+          "text": "Ansh Maurya is a friendly, hardworking, and passionate individual from Kanpur, Uttar Pradesh. He is 5 feet 10 inches tall. He is known for his positive attitude, dedication to learning, and helpful nature. He enjoys solving complex problems and is always eager to learn new technologies.",
+          "source": "Personal Info"
+        },
+        {
+          "text": "Ansh Maurya's nature: He is honest, disciplined, and self-motivated. He stays calm under pressure and approaches challenges with a problem-solving mindset. He values relationships and is respectful towards everyone. His height is 5 feet 10 inches. In his free time, he enjoys exploring new tech, watching educational content, and spending time with family.",
+          "source": "Nature"
+        },
+        {
+          "text": "Ansh Maurya loves food and enjoys all types of dishes. His favorite foods include Paneer (cottage cheese), Chawal (rice), and Roti (Indian bread). He appreciates both home-cooked meals and trying new cuisines. Food is one of his simple pleasures in life.",
+          "source": "Food Preferences"
+        }
+      ]
+    },
+    {
+      "id": "family_info",
+      "title": "Family Information",
+      "chunks": [
+        {
+          "text": "Ansh Maurya comes from a loving family of 5 members in Kanpur, Uttar Pradesh. His father is Mr. Ram Kishun Maurya and his mother is Mrs. Chandravati Maurya. He has two sisters named Poonam Maurya and Sonam Maurya. His family is very supportive and has always encouraged his passion for technology and software development.",
+          "source": "Family"
+        },
+        {
+          "text": "Ansh Maurya's father Mr. Ram Kishun Maurya and mother Mrs. Chandravati Maurya have always supported his dreams. His two sisters Poonam Maurya and Sonam Maurya are his closest companions. The family values education and hard work, which has shaped Ansh's disciplined and dedicated nature.",
+          "source": "Family"
+        }
+      ]
+    },
+    {
+      "id": "hobbies_interests",
+      "title": "Hobbies & Interests",
+      "chunks": [
+        {
+          "text": "Ansh Maurya's hobbies include coding, building web applications, exploring AI technologies, watching tech videos, and learning about new innovations. He is passionate about full-stack development and enjoys creating projects that solve real-world problems. He also likes playing cricket and listening to music.",
+          "source": "Hobbies"
+        },
+        {
+          "text": "Ansh Maurya's interests: Artificial Intelligence, Machine Learning, Web Development, Cloud Computing, Open Source Contribution, and DevOps. He aspires to become a skilled Software Engineer and contribute to impactful projects.",
+          "source": "Interests"
+        }
+      ]
+    },
+    {
       "id": "education",
       "title": "Education",
       "chunks": [
-        {"text": "Ansh Maurya is pursuing B.Tech in Information Technology at Kanpur Institute of Technology (AKTU), from Jan 2024 to Jul 2027.", "source": "Education"},
-        {"text": "Ansh Maurya completed Intermediate and High School from Dr. C.V. Raman Intermediate College, Panki, Kanpur.", "source": "Education"}
+        {
+          "text": "Ansh Maurya is pursuing B.Tech in Information Technology at Kanpur Institute of Technology (AKTU), from January 2024 to July 2027. He is currently in his final year with focus on full stack development and AI integration.",
+          "source": "Education"
+        },
+        {
+          "text": "Ansh Maurya completed Intermediate and High School from Dr. C.V. Raman Intermediate College, Panki, Kanpur.",
+          "source": "Education"
+        }
       ]
     },
     {
       "id": "experience",
       "title": "Experience",
       "chunks": [
-        {"text": "Ansh Maurya worked as a Full Stack Developer Intern at Codec Technologies Pvt. Ltd. from Apr 2026 to Aug 2026. AICTE & ICAC approved, partnered with Google for Education, worked with distributed team across 27+ countries.", "source": "Experience"}
+        {
+          "text": "Ansh Maurya worked as a Full Stack Developer Intern at Codec Technologies Pvt. Ltd. (Hybrid, Pan India) from April 2026 to August 2026. The internship was AICTE and ICAC approved. Codec Technologies is partnered with Google for Education. He worked with a distributed team across more than 27 countries.",
+          "source": "Experience"
+        }
       ]
     },
     {
       "id": "projects",
       "title": "Projects",
       "chunks": [
-        {"text": "TrainTrackPro: Full stack railway tracking/booking platform with React/Vite/Tailwind, Node/Express/Prisma, Python FastAPI RAG microservice (LangChain + Sentence Transformers + Gemini API), PostgreSQL + MongoDB, Docker Compose, Nginx.", "source": "TrainTrackPro project"},
-        {"text": "AI Agent for Semester Exam Preparation: Gemini-powered study assistant with Q&A, topic summarization, and practice question generation.", "source": "AI Agent project"},
-        {"text": "Book Data Web Scraping & Analysis: Python/BeautifulSoup scraper with Pandas/NumPy/Matplotlib/Seaborn analysis. Sentiment analysis: 57.1% positive, 42.9% negative reviews.", "source": "Book Data Analysis project"},
-        {"text": "Inventory Management System with Sales Tracking: Full-stack solution with real-time sales tracking, CRUD operations, and reporting.", "source": "Inventory Management project"}
+        {
+          "text": "TrainTrackPro is a full stack railway tracking and booking platform built by Ansh Maurya. It uses React with Vite and Tailwind CSS for the frontend, Node.js with Express and Prisma for the backend, and a Python FastAPI RAG microservice using LangChain, Sentence Transformers, and Gemini API. The platform uses PostgreSQL and MongoDB databases, Docker Compose for containerization, and Nginx as a reverse proxy.",
+          "source": "TrainTrackPro project"
+        },
+        {
+          "text": "AI Agent for Semester Exam Preparation is a Gemini-powered study assistant built by Ansh Maurya. It provides Q&A functionality, topic summarization, and practice question generation to help students prepare effectively for semester exams.",
+          "source": "AI Agent project"
+        },
+        {
+          "text": "Book Data Web Scraping and Analysis is a project by Ansh Maurya using Python with BeautifulSoup for web scraping. It includes data analysis with Pandas, NumPy, Matplotlib, and Seaborn. Sentiment analysis was performed using TextBlob and VADER, showing 57.1% positive and 42.9% negative reviews.",
+          "source": "Book Data Analysis project"
+        },
+        {
+          "text": "Inventory Management System with Sales Tracking is a full-stack inventory management solution built by Ansh Maurya. It features real-time sales tracking, CRUD operations, and reporting capabilities using React, Node.js, Express, and MongoDB.",
+          "source": "Inventory Management project"
+        },
+        {
+          "text": "Vish Track is a Train Management System built by Ansh Maurya with 1500+ trains, live tracking, ticket booking, and AI chatbot. It uses Next.js, React, Tailwind CSS, Gemini API, and RAG system.",
+          "source": "Vish Track project"
+        }
       ]
     },
     {
       "id": "skills",
       "title": "Skills",
       "chunks": [
-        {"text": "Languages: C, C++, JavaScript, Python. Frontend: React.js, HTML5, CSS3, Tailwind CSS, Vite. Backend: Node.js, Express.js, FastAPI, Prisma ORM, REST APIs. Databases: MySQL, PostgreSQL, MongoDB. Tools: Git, GitHub, Docker, Docker Compose, Nginx, VS Code. AI/Data: Gemini API, LangChain, Sentence Transformers, RAG pipelines, Pandas, NumPy, Matplotlib, Seaborn, BeautifulSoup, TextBlob, VADER, Web Scraping.", "source": "Skills"}
+        {
+          "text": "Ansh Maurya's technical skills include: Languages: C, C++, JavaScript, Python. Frontend: React.js, HTML5, CSS3, Tailwind CSS, Vite. Backend: Node.js, Express.js, FastAPI, Prisma ORM, REST APIs. Databases: MySQL, PostgreSQL, MongoDB. Tools: Git, GitHub, Docker, Docker Compose, Nginx, VS Code. AI/Data: Gemini API, LangChain, Sentence Transformers, RAG pipelines, Pandas, NumPy, Matplotlib, Seaborn, BeautifulSoup, TextBlob, VADER, Web Scraping.",
+          "source": "Skills"
+        },
+        {
+          "text": "Ansh Maurya's soft skills: Strong communication, teamwork, problem-solving, time management, adaptability, leadership, and quick learning ability. He is comfortable working in both independent and collaborative environments.",
+          "source": "Soft Skills"
+        }
       ]
     },
     {
       "id": "certifications",
       "title": "Certifications",
       "chunks": [
-        {"text": "Full Stack Developer Internship Certificate from Codec Technologies (Apr 2026).", "source": "Certifications"},
-        {"text": "What is Data Science? from IBM (Aug 2025).", "source": "Certifications"},
-        {"text": "Advanced Diploma in Computer Applications (ADCA) from STP Computer Education (Apr 2026).", "source": "Certifications"},
-        {"text": "Web Development Course from STP Computer Education (Apr 2024).", "source": "Certifications"}
+        {
+          "text": "Ansh Maurya holds a Full Stack Developer Internship Certificate from Codec Technologies (April 2026).",
+          "source": "Certifications"
+        },
+        {
+          "text": "Ansh Maurya completed the What is Data Science? course from IBM (August 2025).",
+          "source": "Certifications"
+        },
+        {
+          "text": "Ansh Maurya holds an Advanced Diploma in Computer Applications (ADCA) from STP Computer Education (April 2026).",
+          "source": "Certifications"
+        },
+        {
+          "text": "Ansh Maurya completed a Web Development Course from STP Computer Education (April 2024).",
+          "source": "Certifications"
+        }
       ]
     },
     {
       "id": "open_source",
       "title": "Open Source",
       "chunks": [
-        {"text": "Ansh Maurya is a contributor in the Elite Coders Summer of Code (ECSoC) 2026 Cohort.", "source": "Open Source"}
+        {
+          "text": "Ansh Maurya is a contributor in the Elite Coders Summer of Code (ECSoC) 2026 Cohort.",
+          "source": "Open Source"
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "title": "Contact",
+      "chunks": [
+        {
+          "text": "Contact Ansh Maurya: Email - maurya1.ansh@gmail.com, Phone - +91 94542 47006, LinkedIn - linkedin.com/in/anshmaurya89, GitHub - github.com/Maurya8960, YouTube - @AnshMaurya-o6j, X - @maurya1_ansh, WhatsApp available.",
+          "source": "Contact"
+        }
+      ]
+    },
+    {
+      "id": "career_goals",
+      "title": "Career Goals",
+      "chunks": [
+        {
+          "text": "Ansh Maurya's career goal is to become a skilled Full Stack Developer and contribute to innovative software projects. He aims to work in a reputed tech company where he can apply his skills in web development, AI integration, and cloud technologies. He is also interested in open-source contribution and building impactful products.",
+          "source": "Career Goals"
+        }
       ]
     }
   ]
