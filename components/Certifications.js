@@ -1,5 +1,5 @@
 "use client";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 const certifications = [
   {
@@ -10,6 +10,15 @@ const certifications = [
     color: "bg-blue-500",
     image: "/certificates/codec.png",
     details: "AICTE & ICAC approved | Google for Education Partner | 4 Month Internship"
+  },
+  {
+    title: "Delta - Full Stack Web Development",
+    issuer: "Apna College",
+    date: "2024 – 2025",
+    icon: "🚀",
+    color: "bg-indigo-500",
+    image: "/certificates/apna.png",
+    details: "Complete Full Stack Web Development Course by Shradha Khapra"
   },
   {
     title: "What is Data Science?",
@@ -33,7 +42,7 @@ const certifications = [
     title: "Full Stack Web Development (MERN)",
     issuer: "EduShine Classes",
     date: "Jun 2026 – Sep 2026",
-    icon: "🚀",
+    icon: "🎯",
     color: "bg-orange-500",
     image: "/certificates/edushine.png",
     details: "2-Month Online Internship | MSME & Skill India Certified"
@@ -44,7 +53,8 @@ const certifications = [
     date: "Apr 2026",
     icon: "💻",
     color: "bg-pink-500",
-    image: null,
+    image: "/certificates/adca-diploma.pdf",
+    isPdf: true,
     details: "Advanced computer applications diploma"
   },
   {
@@ -53,7 +63,8 @@ const certifications = [
     date: "Apr 2024",
     icon: "🌐",
     color: "bg-red-500",
-    image: null,
+    image: "/certificates/web-development-diploma.pdf",
+    isPdf: true,
     details: "Full web development fundamentals"
   }
 ];
@@ -61,6 +72,16 @@ const certifications = [
 export default function Certifications() {
   const [hoveredCert, setHoveredCert] = useState(null);
   const [mousePos, setMousePos] = useState({ x: 0, y: 0 });
+  const [windowWidth, setWindowWidth] = useState(1000);
+
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      setWindowWidth(window.innerWidth);
+      const handleResize = () => setWindowWidth(window.innerWidth);
+      window.addEventListener('resize', handleResize);
+      return () => window.removeEventListener('resize', handleResize);
+    }
+  }, []);
 
   const handleMouseMove = (e) => {
     setMousePos({ x: e.clientX, y: e.clientY });
@@ -110,12 +131,12 @@ export default function Certifications() {
         </div>
       </div>
 
-      {/* Hover Preview - Follows Cursor */}
+      {/* Hover Preview */}
       {hoveredCert && hoveredCert.image && (
         <div
           className="fixed pointer-events-none z-[9999] hidden lg:block"
           style={{
-            left: Math.min(mousePos.x + 20, window.innerWidth - 420),
+            left: Math.min(mousePos.x + 20, windowWidth - 420),
             top: Math.max(mousePos.y - 220, 20),
             maxWidth: '400px',
           }}
@@ -125,11 +146,19 @@ export default function Certifications() {
               <p className="text-sm font-bold">{hoveredCert.title}</p>
               <p className="text-xs opacity-90">{hoveredCert.issuer}</p>
             </div>
-            <img
-              src={hoveredCert.image}
-              alt={hoveredCert.title}
-              className="w-[380px] h-auto max-h-[280px] object-contain bg-white"
-            />
+            {hoveredCert.isPdf ? (
+              <iframe
+                src={`${hoveredCert.image}#toolbar=0&navpanes=0&scrollbar=0&view=FitH`}
+                className="w-[380px] h-[280px]"
+                title={hoveredCert.title}
+              />
+            ) : (
+              <img
+                src={hoveredCert.image}
+                alt={hoveredCert.title}
+                className="w-[380px] h-auto max-h-[280px] object-contain bg-white"
+              />
+            )}
           </div>
         </div>
       )}
