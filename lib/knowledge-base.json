@@ -5,7 +5,11 @@
       "title": "Personal Information",
       "chunks": [
         {
-          "text": "Ansh Maurya is a friendly, hardworking, and passionate individual from Kanpur, Uttar Pradesh. He is 5 feet 10 inches tall. He is known for his positive attitude, dedication to learning, and helpful nature. He enjoys solving complex problems and is always eager to learn new technologies.",
+          "text": "Ansh Maurya was born on 17 November 2003. He is from Kanpur, Uttar Pradesh, India. He is 5 feet 10 inches tall. He is a friendly, hardworking, and passionate individual known for his positive attitude and dedication to learning.",
+          "source": "Personal Info"
+        },
+        {
+          "text": "Ansh Maurya's date of birth is 17th November 2003. His zodiac sign is Scorpio. He is currently pursuing B.Tech in Information Technology and is in his final year.",
           "source": "Personal Info"
         },
         {
@@ -13,7 +17,7 @@
           "source": "Nature"
         },
         {
-          "text": "Ansh Maurya loves food and enjoys all types of dishes. His favorite foods include Paneer (cottage cheese), Chawal (rice), and Roti (Indian bread). He appreciates both home-cooked meals and trying new cuisines. Food is one of his simple pleasures in life.",
+          "text": "Ansh Maurya loves food and enjoys all types of dishes. His favorite foods include Paneer (cottage cheese), Chawal (rice), and Roti (Indian bread). He appreciates both home-cooked meals and trying new cuisines.",
           "source": "Food Preferences"
         }
       ]
