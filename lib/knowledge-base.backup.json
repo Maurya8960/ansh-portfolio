@@ -1,0 +1,53 @@
+{
+  "sections": [
+    {
+      "id": "education",
+      "title": "Education",
+      "chunks": [
+        {"text": "Ansh Maurya is pursuing B.Tech in Information Technology at Kanpur Institute of Technology (AKTU), from Jan 2024 to Jul 2027.", "source": "Education"},
+        {"text": "Ansh Maurya completed Intermediate and High School from Dr. C.V. Raman Intermediate College, Panki, Kanpur.", "source": "Education"}
+      ]
+    },
+    {
+      "id": "experience",
+      "title": "Experience",
+      "chunks": [
+        {"text": "Ansh Maurya worked as a Full Stack Developer Intern at Codec Technologies Pvt. Ltd. from Apr 2026 to Aug 2026. AICTE & ICAC approved, partnered with Google for Education, worked with distributed team across 27+ countries.", "source": "Experience"}
+      ]
+    },
+    {
+      "id": "projects",
+      "title": "Projects",
+      "chunks": [
+        {"text": "TrainTrackPro: Full stack railway tracking/booking platform with React/Vite/Tailwind, Node/Express/Prisma, Python FastAPI RAG microservice (LangChain + Sentence Transformers + Gemini API), PostgreSQL + MongoDB, Docker Compose, Nginx.", "source": "TrainTrackPro project"},
+        {"text": "AI Agent for Semester Exam Preparation: Gemini-powered study assistant with Q&A, topic summarization, and practice question generation.", "source": "AI Agent project"},
+        {"text": "Book Data Web Scraping & Analysis: Python/BeautifulSoup scraper with Pandas/NumPy/Matplotlib/Seaborn analysis. Sentiment analysis: 57.1% positive, 42.9% negative reviews.", "source": "Book Data Analysis project"},
+        {"text": "Inventory Management System with Sales Tracking: Full-stack solution with real-time sales tracking, CRUD operations, and reporting.", "source": "Inventory Management project"}
+      ]
+    },
+    {
+      "id": "skills",
+      "title": "Skills",
+      "chunks": [
+        {"text": "Languages: C, C++, JavaScript, Python. Frontend: React.js, HTML5, CSS3, Tailwind CSS, Vite. Backend: Node.js, Express.js, FastAPI, Prisma ORM, REST APIs. Databases: MySQL, PostgreSQL, MongoDB. Tools: Git, GitHub, Docker, Docker Compose, Nginx, VS Code. AI/Data: Gemini API, LangChain, Sentence Transformers, RAG pipelines, Pandas, NumPy, Matplotlib, Seaborn, BeautifulSoup, TextBlob, VADER, Web Scraping.", "source": "Skills"}
+      ]
+    },
+    {
+      "id": "certifications",
+      "title": "Certifications",
+      "chunks": [
+        {"text": "Full Stack Developer Internship Certificate from Codec Technologies (Apr 2026).", "source": "Certifications"},
+        {"text": "What is Data Science? from IBM (Aug 2025).", "source": "Certifications"},
+        {"text": "Advanced Diploma in Computer Applications (ADCA) from STP Computer Education (Apr 2026).", "source": "Certifications"},
+        {"text": "Web Development Course from STP Computer Education (Apr 2024).", "source": "Certifications"}
+      ]
+    },
+    {
+      "id": "open_source",
+      "title": "Open Source",
+      "chunks": [
+        {"text": "Ansh Maurya is a contributor in the Elite Coders Summer of Code (ECSoC) 2026 Cohort.", "source": "Open Source"}
+      ]
+    }
+  ]
+}
